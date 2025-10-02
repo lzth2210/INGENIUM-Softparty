@@ -1,0 +1,167 @@
+/* Imagen desarrollador */
+.apartado img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+/* Inputs */
+input {
+    display: block;
+    margin: 0 auto 15px auto;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: #ab91b5;
+    outline: none;
+    box-shadow: 0 0 5px rgba(171, 145, 181, 0.7);
+}
+
+/* Botón enviar */
+.btn-enviar {
+    width: 60%;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #ab91b5;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: auto;
+}
+
+.btn-enviar:hover {
+    background-color: #946ca0;
+}
+
+/* Contenedor */
+.content-form {
+    background-color: #ffa84fa1 !important;
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Columna del formulario */
+.content-form .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.content-form .column {
+    width: 50%;
+}
+
+/* Tabla */
+.tabla-resultados {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.tabla-resultados th, .tabla-resultados td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.tabla-resultados th {
+    background-color: #ab91b5;
+    color: white;
+}
+
+.tabla-resultados tr:nth-child(even) {
+    background-color: #f3eaf7;
+}
+
+.tabla-resultados tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .content-form {
+        flex-direction: column;
+    }
+
+    .content-form .formulario {
+        padding: 30px;
+    }
+
+    .content-form .column {
+        width: 100%;
+    }
+}
+
+/* ------- Modal de alerta visual (solo CSS) ------- */
+#toggle-alerta {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle-alerta:checked ~ .overlay {
+    display: flex;
+}
+
+.alerta {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    max-width: 300px;
+}
+
+.alerta h2 {
+    color: #ab91b5;
+    margin-bottom: 10px;
+}
+
+.alerta p {
+    margin-bottom: 20px;
+}
+
+.cerrar-btn {
+    background: #ab91b5;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
