@@ -27,18 +27,17 @@ Nuestro equipo esta conformado por 4 integrantes, todos estudiantes del grado de
 ## Estructura del Proyecto:
 
 ```python
-(SOFTPARTY-2025)
-|
-│- index.html
-│- README.md
-│- assets/
-| |- css/
-| | |- index-style.css
-| | |- bootstrap
-| | | |- bootstrap.min.css
-| | | |- bootstrap.bundle.min.js
-| |- img/
-| |- js/
+/SOFTPARTY-2025
+  ├─ /docs
+  │   ├─ /assets
+  │   │   ├─ /css
+  │   │   │   ├─ /bootstrap
+  │   │   │   │   ├─ bootstrap.min.css
+  │   │   │   │   └─ bootstrap.bundle.min.js
+  │   │   │   └─ styles.css
+  │   │   ├─ /img
+  │   │   └─ /js
+  └─ README.md
 ```
 ## Cómo usar este repositorio:
 
