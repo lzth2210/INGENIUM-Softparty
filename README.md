@@ -6,7 +6,7 @@ Nuestro equipo esta conformado por 4 integrantes, todos estudiantes del grado de
 - **Lizeth Carmona Dávila** - [GitHub](https://github.com/lzth2210)
 - **Juan Andres Marulanda Ramirez** 
 - **Santiago Acevedo Villa**
-- **Jhonatan ---- ---**
+- **Maria Paulina Arenas Orozco**
 
 ## SOBRE EL PROYECTO:
 
