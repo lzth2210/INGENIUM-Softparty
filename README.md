@@ -10,7 +10,7 @@ Nuestro equipo esta conformado por 4 integrantes, todos estudiantes del grado de
 
 ## SOBRE EL PROYECTO:
 
-- **Descripción:**
+- **Descripción:** Nuestro proyecto se basa en la corrección de errores en el código fuente que se nos fue dado, además de la implementación de las características pedidas en el reto.
 
 ## Tecnologías Utilizadas:
 
@@ -19,10 +19,7 @@ Nuestro equipo esta conformado por 4 integrantes, todos estudiantes del grado de
 3. JavaScript Vanilla
 4. Bootstrap 5
 5. Git y GitHub Pages
-
-## ¿Quieres ver nuestro proyecto en acción?
-
-[Miralo en GitHub Pages](--Link a GitHub Pages--)
+6. SweetAlert2
 
 ## Estructura del Proyecto:
 
@@ -49,14 +46,12 @@ Nuestro equipo esta conformado por 4 integrantes, todos estudiantes del grado de
    ```
    cd SOFTPARTY-2025
    ```
-3. Abre el archivo `index.html` en tu navegador web para ver la página. 
+3. Abre el archivo `formulario.html` en tu navegador web para ver la página. 
 4. Si deseas hacer cambios, edita los archivos CSS o JavaScript en la carpeta `assets`.
 
-## Imagenes del Proyecto:
+## Imagen del Proyecto:
 
-- 
-- 
-- 
+ ![Imagen del Proyecto](docs/assets/img/vista.jpeg)
 
 ## Agradecimientos:
 
